@@ -4,8 +4,9 @@
     "description": "",
     "author": "",
     "license": "ISC",
-    "publishConfig": {
-        "@axvdex:registry": "https://npm.pkg.github.com"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/axvdex/astrovault-utils"
     },
     "scripts": {
         "build": "npm i && tsc --build"
