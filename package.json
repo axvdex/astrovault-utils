@@ -23,7 +23,10 @@
         "@types/node": "^18.19.39"
     },
     "exports": {
-    ".": "./build/index.js",
-    "./*": "./build/*.js"
-  }
+      ".": "./build/index.js",
+      "./*": "./build/*.js"
+    },
+    "files": [
+      "build/"
+    ]
 }
