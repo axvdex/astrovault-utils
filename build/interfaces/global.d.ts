@@ -6,5 +6,7 @@ export interface IChainSettings {
     db: string;
     env: string;
     mainNativeDenom: string;
+    alternativeFeeDenom?: string;
     explorerURL: string;
+    defaultFee: string;
 }
