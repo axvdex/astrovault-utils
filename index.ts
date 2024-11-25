@@ -11,6 +11,7 @@ export {
 } from "./tx/cosmos";
 
 export { mongoKeyEscape, mongoKeyUnescape } from "./helpers/mongoKeyEscape";
+export { accountToWalletAddress } from "./helpers/accountToWalletAddress";
 export { accountFromNibiru } from "./helpers/nibiruAccountParser";
 
 export * from "./interfaces/global";
